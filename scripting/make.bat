@@ -1,0 +1,1 @@
+%HOMEPATH%\sourcemod-1.8.0\addons\sourcemod\scripting\spcomp zombiereloaded.sp
