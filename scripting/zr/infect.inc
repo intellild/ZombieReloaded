@@ -358,13 +358,7 @@ InfectOnClientHurt(client, attacker, const String:weapon[], int damage = 0)
         return;
     }
 
-	if(damage > 100)
-	{
-		//TODO
-		PrintCenterTextAll("kick");
-		return;
-	}
-	else
+	if(damage < 100)
 	{
 		// Infect client.
 		InfectHumanToZombie(client, attacker);
